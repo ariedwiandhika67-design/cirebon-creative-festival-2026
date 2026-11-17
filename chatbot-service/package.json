@@ -1,0 +1,20 @@
+{
+  "name": "ccf-2026-chatbot-service",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Node.js rule-based chatbot with optional AI provider fallback for Cirebon Creative Festival 2026",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql2": "^3.11.5"
+  }
+}
